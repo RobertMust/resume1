@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,300;0,400;1,500&display=swap');
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 10px;
+    font-style: normal;
+    /* background-color: rgb(255, 240, 240); */
+    background: linear-gradient(to bottom right, #F5F5F5, #85a7cbab);
+   
+}
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding: 10px 5px 10px 5px; 
+ }
+
+/* Градиентная заливка в таблице */
+/* линейный градиент ---> background: linear-gradient (угол / сторона или угол наклона с помощью ключевого слова (пары ключевых слов), первый цвет, второй цвет и т.д.) */
+table {
+    width: 100%;
+    background: linear-gradient(to top left, rgba(204, 180, 251, 0.627), #a4cbf869);
+}
+
+th {
+    border: 1px solid #E9F1FA;
+    padding: 10px ;
+    width: 10%;
+}
+
+td {
+    border: 1px solid #E9F1FA;
+    padding: 10px;
+    width: 10%;  
+}
+
+h1 {
+   
+   
+    color: #648ec0;
+    font-style: normal;
+}
+
+h2 {
+    margin-top: 10px;
+    text-align: center;
+    color: #648ec0;
+    font-style: normal;
+}
+
+.card {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color:  #b8d3ee4d;
+    border: 2px solid rgba(151, 151, 236, 0.664);
+    padding: 10px 10px 20px 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    margin-bottom: 15px;
+}
+.first_info {
+    margin: 20px;
+    display:flex;
+    
+}
+.second_info {
+    margin: 20px;
+    
+}
+.avatar {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+   
+
+}
+
+/* .card_five {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #b8d3ee4d;
+    border: 2px solid rgba(151, 151, 236, 0.664);
+    padding: 5px 10px 20px 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    margin-bottom: 15px;
+} */
+
+
+a {
+    
+    text-decoration: none;
+}
+a:hover {
+    color: orange;
+    text-decoration: underline;
+
+}
+
+a:active {
+    color: blue;
+}
+.btn {
+    background: rgba(118, 161, 217, 0.843);
+    color:#fff;
+    padding: 15px;
+    border:none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: inherit;
+    margin-top: 10px;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+.your_massage {
+    padding-top: 15px;
+}
+
+.list1 {
+    padding-left: 20px;
+    margin: 0;
+    list-style: circle;
+    
+}
+.list1 li {
+    padding-bottom: 5px;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display:flex;
+}
+.form-row .form-group {
+    /* display: inline-block; */
+    margin-right: 20px; 
+    width: 50%;
+    /* width: 44%; */
+    /* width: calc(50%-20px); */
+
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 600px){
+    .form-row {
+        margin-bottom: 10px;
+        display: block;
+        
+    }
+    .form-group .form-row
+    {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0px;
+    }
+}
+
+.form-group label {
+display: block;
+font-size: 14px;
+color:#648ec0;
+
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #648ec0;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+@media (max-width: 600px) {
+    .first_info
+    
+    {display: block;
+       text-align: center; 
+    }
+    
+}
